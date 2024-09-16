@@ -14,11 +14,11 @@ This repository contains Python implementations of various stochastic volatility
 
 The following stochastic volatility models are currently available in this repository:
 
-- ** Merton Jump Diffusion: **
+- **Merton Jump Diffusion:**
 
-- ** Continous-Time Markov Chains: **
+- **Continous-Time Markov Chains:**
 
-- ** Heston Model: ** In this model the volatility has its own stochastic differential equation, creating a smoother yet still random transition between times of high volatility an low volatility. An important characteristic of this model is tha t
+- **Heston Model:** In this model the volatility has its own stochastic differential equation, creating a smoother yet still random transition between times of high volatility an low volatility. An important characteristic of this model is tha t
 
 
 
