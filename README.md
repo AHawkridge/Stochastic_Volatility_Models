@@ -4,8 +4,10 @@ This repository contains Python implementations of various stochastic volatility
 
 ## Table of Contents
 
-[Headers](#headers)  
-[Emphasis](#emphasis) 
+[Overview](#Overview)  
+[Models Implemented](#Models Implemented) 
+[Distributions](#Distributions)  
+[To-Do](#To-Do)  
 
 
 ## Overview
