@@ -4,8 +4,7 @@ This repository contains Python implementations of various stochastic volatility
 
 ## Table of Contents
 
-[Overview](#Overview)  
-[ModelsImplemented](#ModelsImplemented) 
+[Overview](#Overview)   
 [Distributions](#Distributions)  
 [To-Do](#To-Do)  
 
@@ -17,7 +16,7 @@ This repository contains Python implementations of various stochastic volatility
 
 The following stochastic volatility models are currently available in this repository:
 
-- **Merton Jump Diffusion:**
+- **Merton Jump Diffusion:** This model states that the underlying assets have occasional large discontinuous jumps in price while still following the geometric brownian motion. This is achieved through a compound poisson process. The discontinous jumps change the overall implied volatility of the model.
 
 - **Continous-Time Markov Chains:**
 
@@ -30,4 +29,6 @@ The distributions of each model are also investigated to ensure that that the st
 
 ## To-Do
 
-There are still a few ways in which 
+- Calculate the terminal times of stock paths of the models to decrease the computation time of the implied volatility.
+- Apply the models to real-world data.
+- Combine multiple models together and determine its effectiveness.
