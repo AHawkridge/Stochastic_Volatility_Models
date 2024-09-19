@@ -20,7 +20,7 @@ The following stochastic volatility models are currently available in this repos
 
 - **Continous-Time Markov Chains:** In this model the volatility can take any number of finite states, where the time spent in each state and which state the system will transition into next is determined through the use of markove chains.
   
-- **Heston Model:** In this model the volatility has its own stochastic differential equation, creating a smoother yet still random transition between times of high volatility an low volatility. An important characteristic of this model is tha t
+- **Heston Model:** In this model the volatility has its own stochastic differential equation, creating a smoother yet still random transition between times of high volatility an low volatility. An important characteristic of this model is that the volatility is mean reverting, so it does not deviate to far from a set value.
 
 
 
